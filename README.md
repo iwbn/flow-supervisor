@@ -39,7 +39,7 @@ python evaluate.py ckpts/semi/sintel/ckpt-100000-weights --gpus 0 --dataset sint
 We thank the authors of [RAFT](https://github.com/princeton-vl/RAFT), and [SMURF](https://github.com/google-research/google-research/tree/master/smurf), [Uflow](https://github.com/google-research/google-research/tree/master/uflow)
 for their contribution to the field and our research;
 our implementation is inspired by, or utilized parts of 
-RAFT and SMURF (network and losses) code, as credited in our code.
+RAFT, SMURF (network and losses), and Uflow code, as credited in our code.
 
 ## PyTorch code
 
