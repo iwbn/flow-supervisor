@@ -1,0 +1,3 @@
+[submodule "cargbox"]
+	path = cargbox
+	url = https://github.com/iwbn/cargbox.git
