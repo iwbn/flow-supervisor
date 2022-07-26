@@ -1,6 +1,6 @@
 # Flow Supervisor
 
-This repository publish code for the paper "Semi-Supervised Learning of Optical Flow by Flow Supervisor", ECCV 2020.
+This repository publish code for the paper "Semi-Supervised Learning of Optical Flow by Flow Supervisor", ECCV 2022.
 If you need to cite our work, consider to use this:
 ```bibtex
 @inproceedings{Im_2022_ECCV,
