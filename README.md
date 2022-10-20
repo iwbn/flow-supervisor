@@ -21,11 +21,15 @@ If you need to cite our work, consider to use this:
 
 ### Pretrained model
 
-Three pretrained models can be downloaded from [here](#) (to be updated).
+Three pretrained models can be downloaded from [here](https://kaistackr-my.sharepoint.com/:u:/g/personal/iwbn_kaist_ac_kr/EdFzcFpUwttPvc7sr5imnNsB41FoZe1rwuR6DWbkko-x9w?e=4wIjEW).
 
 1. Chairs+Things model (ckpts/baseline/things/)
 2. C+T+S^u model (ckpts/semi/sintel/)
 3. C+T+K^u model (ckpts/semi/kitti/)
+4. C+T+K^u model w/o unsup (ckpts/semi/kitti2/)
+5. C+T+VKITTI+K^u model (ckpts/semi/vkitti/)
+6. C+T+DAVIS model (ckpts/semi/davis_ct/)
+7. C+T+S+K+H+DAVIS model (ckpts/semi/davis_ctskh/)
 
 Originally the files were located in `./ckpts/`, but you can put them anywhere you want!
 
