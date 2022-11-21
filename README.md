@@ -80,7 +80,7 @@ docker build . --tag flow-supervisor
 
 You can run a docker container with:
 ```sh
-docker run --rm --gpus all flow-supervisor
+docker run --rm -it --gpus all flow-supervisor
 ```
 
 ### Acknowledgment
@@ -98,4 +98,5 @@ RAFT, SMURF (network and losses), and Uflow code, as credited in our code.
   * Please read `wb_data/path.py` and locate the files according to the locations. 
 * See `train_semi.sh` to run experiments. 
   * Pretrained weights should be downloaded before running the experiment. Download from original repositories for [RAFT](https://github.com/princeton-vl/RAFT) and [GMA](https://github.com/zacjiang/GMA).
+* Use this link to download pytorch benchmark weights: [link](https://kaistackr-my.sharepoint.com/:u:/g/personal/iwbn_kaist_ac_kr/EWmN7T-YE4RCsf_86OjIib8Bx-fXsqZVa0G02xjqziRnaQ?e=qygJ9a)
 
