@@ -14,7 +14,7 @@ from copy import deepcopy
 def fetch_dataloader(args, TRAIN_DS='C+T+K+S+H'):
     """ Create the data loader for the corresponding trainign set """
 
-    elif args.stage == 'sintel_unsup_train':
+    if args.stage == 'sintel_unsup_train':
         aug_params = {'crop_size': args.image_size, 'min_scale': -0.5, 'max_scale': 0.6, 'do_flip': True}
 
         obj_final = SintelUnsup(augment=True, training=True, dstype='final', shuffle=True, **aug_params)

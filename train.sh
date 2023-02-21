@@ -23,13 +23,13 @@ python train.py --stage semi-kitti_unsup_test-things_unsup --pretrained_ckpt ckp
 --teacher_smurf_weight 1.0 --census_weight 1.0 --smooth2_weight 2.0 --smooth1_weight 0.0 --smurf_occlusion brox \
 --lfr_loss_type robust \
 --lfl_loss_decay_rate 0.8 \
-ckpts/semi/kitti/
+ckpts/semi/kitti2/
 
 python train.py --stage semi-kitti_unsup_test-things_unsup --pretrained_ckpt ckpts/raft_baseline/things/ckpt-100000 \
 --unsup_weight 1.0 --unsup_image_size 288 640 --sup_image_size 360 640 --model_type raft-semi --gpus 0 --iters 12 \
 --max_step 100000 --val_step 5000 --learning_rate 0.00001 --lr_schedule exponential --lr_decay_steps 25000 --weight_decay 0.0 \
 --batch_size 1 --lfr_weight 1.0 --lfl_weight 1.0 \
---teacher_smurf_weight 0.01 --census_weight 1.0 --smooth2_weight 2.0 --smooth1_weight 0.0 --smurf_occlusion brox \
+--teacher_smurf_weight 0.0 --census_weight 1.0 --smooth2_weight 2.0 --smooth1_weight 0.0 --smurf_occlusion wang \
 --lfr_loss_type robust \
 --lfl_loss_decay_rate 0.8 \
-ckpts/semi/kitti2/
+ckpts/semi/kitti/
