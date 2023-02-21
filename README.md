@@ -25,8 +25,8 @@ Three pretrained models can be downloaded from [here](https://kaistackr-my.share
 
 1. Chairs+Things model (ckpts/baseline/things/)
 2. C+T+S^u model (ckpts/semi/sintel/)
-3. C+T+K^u model (ckpts/semi/kitti/)
-4. C+T+K^u model w/o unsup (ckpts/semi/kitti2/)
+3. C+T+K^u model (ckpts/semi/kitti2/)
+4. C+T+K^u model w/o unsup (ckpts/semi/kitti/)
 5. C+T+VKITTI+K^u model (ckpts/semi/vkitti/)
 6. C+T+DAVIS model (ckpts/semi/davis_ct/)
 7. C+T+S+K+H+DAVIS model (ckpts/semi/davis_ctskh/)
